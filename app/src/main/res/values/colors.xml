@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primarne boje -->
+    <color name="primaryColor">#FF6200EE</color> <!-- Glavna boja aplikacije (npr. za toolbar, button-e) -->
+    <color name="primaryDarkColor">#FF3700B3</color> <!-- Tamnija verzija glavne boje (npr. za status bar ili naglaske) -->
+    <color name="accentColor">#FF03DAC5</color> <!-- Boja za akcente (npr. floating action button, highlight-ove) -->
+
+    <color name="primaryColorTransparent">#836200EE</color>
+
+    <!-- Pozadinske boje -->
+    <color name="backgroundColor">#FFF5F5F5</color> <!-- Glavna pozadinska boja aplikacije (npr. za activity layout) -->
+    <color name="cardBackgroundColor">#FFFFFFFF</color> <!-- Pozadinska boja za kartice i widgete -->
+
+    <!-- Tekstualne boje -->
+    <color name="textPrimaryColor">#FF000000</color> <!-- Primarna boja za tekst (npr. za glavne naslove i važan sadržaj) -->
+    <color name="textSecondaryColor">#FF757575</color> <!-- Sekundarna boja za tekst (npr. za podnaslove, manje bitne informacije) -->
+    <color name="textAccentColor">#FF6200EE</color> <!-- Boja za naglašavanje teksta (npr. linkovi, akcioni tekst) -->
+
+    <!-- Boje za greške i upozorenja -->
+    <color name="errorColor">#FFD32F2F</color> <!-- Boja za greške (npr. tekstualni input error) -->
+    <color name="warningColor">#FFFFC107</color> <!-- Boja za upozorenja (npr. upozorenje korisniku) -->
+
+    <!-- Dodatne boje -->
+    <color name="buttonColor">#FF6200EE</color> <!-- Boja za dugmad u aplikaciji -->
+    <color name="buttonTextColor">#FFFFFFFF</color> <!-- Boja za tekst na dugmadima -->
+    <color name="dividerColor">#FFBDBDBD</color> <!-- Boja za razdelne linije (npr. između elemenata na listi) -->
+
+</resources>

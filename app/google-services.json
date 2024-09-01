@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "625320644778",
+    "project_id": "kuvajbrzo",
+    "storage_bucket": "kuvajbrzo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625320644778:android:d0cb3f1366ba8f6b4140d3",
+        "android_client_info": {
+          "package_name": "com.example.kuvajbrzo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArx0AUwjD1sd4d5TIWU_ONYbTBUi7LZ5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

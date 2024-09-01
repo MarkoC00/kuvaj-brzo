@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupFragment">
+
+    <!-- Kartica koja obuhvata sve elemente -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="100dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/cardBackgroundColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Naslov aplikacije -->
+            <TextView
+                android:id="@+id/appTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kuvaj Brzo"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="@color/primaryColor"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"/>
+
+            <!-- Polje za korisničko ime -->
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Korisničko ime"
+                android:inputType="text"
+                android:textColor="@color/textPrimaryColor"
+                android:textColorHint="@color/textSecondaryColor"
+                android:backgroundTint="@color/primaryColor"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Polje za email -->
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/textPrimaryColor"
+                android:textColorHint="@color/textSecondaryColor"
+                android:backgroundTint="@color/primaryColor"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Polje za lozinku -->
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lozinka"
+                android:inputType="textPassword"
+                android:textColor="@color/textPrimaryColor"
+                android:textColorHint="@color/textSecondaryColor"
+                android:backgroundTint="@color/primaryColor"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Polje za ponovnu lozinku -->
+            <EditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ponovi lozinku"
+                android:inputType="textPassword"
+                android:textColor="@color/textPrimaryColor"
+                android:textColorHint="@color/textSecondaryColor"
+                android:backgroundTint="@color/primaryColor"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Dugme za registraciju -->
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registruj se"
+                android:textSize="20sp"
+                android:textColor="@color/buttonTextColor"
+                android:backgroundTint="@color/buttonColor"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Link za prijavu -->
+            <TextView
+                android:id="@+id/loginLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Već imaš nalog? Prijavi se"
+                android:textColor="@color/accentColor"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
